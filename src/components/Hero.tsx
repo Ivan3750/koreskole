@@ -26,7 +26,7 @@ const Hero = () => {
           {/* Headline */}
           <h1 className="animate-fade-up-delay-1 font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6">
             Din Vej til <br />
-            <span className="text-gradient">Sikker Kørsel</span>
+            <span >Sikker Kørsel</span>
           </h1>
 
           {/* Subheadline */}
@@ -40,9 +40,6 @@ const Hero = () => {
             <Button size="lg" className="hero-gradient text-primary-foreground hover:opacity-90 transition-opacity group shadow-lg shadow-primary/25">
               Kom i Gang
               <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button size="lg" variant="outline" className="border-foreground/20 bg-background/50 backdrop-blur-sm hover:bg-background/80">
-              Se Priser
             </Button>
           </div>
 

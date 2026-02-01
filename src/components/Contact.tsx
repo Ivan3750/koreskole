@@ -18,8 +18,8 @@ const Contact = () => {
     {
       icon: MapPin,
       label: "Adresse",
-      value: "Vestre Engvej 7 \n7100 Vejle", 
-      href: "https://maps.google.com/?q=Nørrebrogade+5,+7100+Vejle",
+      value: "Vestre Engvej 7 \n7100 Vejle",
+      href: "https://maps.google.com/?q=Vestre+Engvej+7,+7100+Vejle",
     },
   ];
 
@@ -60,7 +60,6 @@ const Contact = () => {
               ))}
             </div>
 
-            {/* Quick Actions */}
             <div className="flex flex-col sm:flex-row gap-4 mt-10">
               <Button asChild className="hero-gradient text-primary-foreground hover:opacity-90 transition-opacity shadow-lg shadow-primary/20">
                 <a href="tel:23748780">
@@ -68,15 +67,14 @@ const Contact = () => {
                   Ring Nu
                 </a>
               </Button>
+              
             </div>
           </div>
 
-          {/* Right: Map/Hours Card */}
           <div className="space-y-6">
-            {/* Map Embed */}
             <div className="bg-card rounded-3xl overflow-hidden card-shadow h-72 border border-border">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2247.2!2d9.535!3d55.709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTXCsDQyJzMyLjQiTiA5wrAzMicwNi4wIkU!5e0!3m2!1sda!2sdk!4v1"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12153.2252481922!2d9.534519930379213!3d55.71527382563587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c82509eaaa53d%3A0xfa34ac2a4dc08d4d!2sVestre%20Engvej%207%2C%207100%20Vejle!5e0!3m2!1suk!2sdk!4v1769987195463!5m2!1suk!2sdk"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
