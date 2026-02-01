@@ -73,7 +73,7 @@ const Footer = () => {
               <li>
                 <span className="flex items-start gap-2 text-secondary-foreground/70">
                   <MapPin className="w-4 h-4 mt-0.5" />
-                  Nørrebrogade 5, 1.<br />7100 Vejle
+                  Vestre Engvej 7<br />7100 Vejle
                 </span>
               </li>
             </ul>
